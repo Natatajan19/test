@@ -1,6 +1,9 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    printf("Hello World\n");
+    int age;
+    printf("Enter your age: ");
+    scanf("%d", &age);
+    printf("You are %d years old", age);
     return 0;
 }
